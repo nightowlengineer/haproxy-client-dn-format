@@ -1,3 +1,7 @@
+**This module is no longer required** after HAProxy released 2.2-dev1 which added "MINOR: ssl: Add support for returning the dn samples from `ssl_(c|f)_(i|s)_dn` in LDAP v3 (RFC2253) format." - see https://cbonte.github.io/haproxy-dconv/2.2/configuration.html#7.3.4-ssl_c_s_dn for further information
+
+---
+
 # haproxy-client-dn-format
 A simple Lua module for HAProxy to fetch the subject name of a client-side certificate as an RFC4514-compliant string
 
